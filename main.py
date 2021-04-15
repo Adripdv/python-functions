@@ -98,3 +98,33 @@
 #         return n * factorial_recursive(n -1)
 
 # print(factorial_recursive(5))
+
+#==============================================
+'''Variable scope'''
+
+# # outside the function (out of the function scope)
+# total = 10
+
+# def add_nums (arg1, arg2):
+#   # inside the function 
+#     total = arg1 + arg2
+#     print(total)
+    
+# # add_nums(3, 3)
+# # print(total)
+# add_nums(total, 2)
+
+#==============================================
+'''Function return keyword'''
+
+def add_nums (arg1, arg2):
+    total = arg1 + arg2
+    
+    return total
+    
+# print(add_nums(2,2))
+# print(add_nums(2,2) * 3)
+# newTotal = add_nums(2,2)
+# print(newTotal)
+
+
